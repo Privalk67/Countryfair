@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+  background-color: black;
+  border-radius: 2.5%;
+  padding: 1.15vw;
+  position:sticky;
+  top: 0;
+  z-index: 1000;
+  
+}
+}
+html{
+scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.23rem;
+}
+nav {
+  margin: 1%;
+  display: flex;
+  gap: 5vw;
+}
+
+#home>h3{
+  font-size: 2rem;
+  color: white;
+}
+#home{
+  background-color: black;
+}
+
+section{
+    margin-top: 1.4%;
+}
+.countries{
+    display: flex;
+    gap: 1.92rem;
+    padding: 2rem 5%;
+    justify-content: space-between;
+}
+.japan{
+  border: lightcoral solid 1px;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: red;
+    font-size: 1.8rem;
+    flex: 2;
+    
+
+}
+.india{
+
+  font-size: 1.8rem;
+
+    border: lightcoral solid 1px;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: orange;
+  flex: 2;
+  color: #1B2A5C;
+
+}
+.nepal{
+font-size: 1.8rem;
+  border: lightcoral solid 1px;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: blue;
+  flex: 2;
+  color: #FFE600;
+
+}
+.china{
+font-size: 1.8rem;
+  border: lightcoral solid 1px;
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: yellow;
+  flex: 2;
+  color: #8B0000;
+
+}
+main>section>div>h3{
+    font-size: 2rem;
+    color: white;
+    
+}
+.allcountries{
+  background: #2B2B2B ;
+}
+.favcountry{
+  justify-content: center;
+  
+  margin-top: 4rem;
+}
+.nepalimage{
+  height: auto;
+  border-radius: 20px;
+  margin-left: 10px;
+
+}
+main>section>.favcountry>h3{
+  color: black;
+  font-weight: 100;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 2rem;
+}
+
+.traditionalfood {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.traditionalfood > h3 {
+  width: 100%;
+  color: #2B2118
+  
+}
+.traditionalfood{
+  background-color: #FFF7EA;
+}
+
+.indiafood{
+   flex: 1;
+   width: 20%;
+  padding: 1rem;
+}
+.nepalifood{
+   flex: 1;
+    width: 20%;
+  padding: 1rem;
+}
+.japanesefood{
+   flex: 1;
+    width: 20%;
+  padding: 1rem;
+}
+.chinesefood{
+     flex: 1;
+    width: 20%;
+  padding: 1rem;
+}
+
+
+.traditionalfood img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
